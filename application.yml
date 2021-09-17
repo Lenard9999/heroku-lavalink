@@ -1,9 +1,11 @@
 server: # REST and WS server
-  port: 1234
+  port: DYNAMICPORT
   address: 0.0.0.0
 lavalink:
   server:
-    password: "youshallnotpass"
+    id: "Main"
+    port: 1234
+    password: "password"
     sources:
       youtube: true
       bandcamp: true
